@@ -1,0 +1,17 @@
+package com.company;
+
+public class VarTry {
+
+    public static void main(String[] argv) {
+	// write your code here
+       //declare test score
+        int test_score = 95;
+        float price = 9.99f;
+        String username = "tsjones";
+
+        //print arguments
+        System.out.println("Test score initialized is: " + test_score);
+        System.out.println("Price tag: " + price);
+        System.out.println("Username " + username);
+    }
+}
