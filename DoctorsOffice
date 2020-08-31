@@ -20,8 +20,8 @@ public class Doctor {
         System.out.println("Body temprature: " + temp);
         System.out.println("Number of visits: " + numVisits);
         System.out.println("Copay Amount: " +copay);
-        System.out.println("Next Appointment" +nextapp);
-        System.out.println("Contact Number" +contact);
+        System.out.println("Next Appointment: " +nextapp);
+        System.out.println("Contact Number: " +contact);
 
 
     }
