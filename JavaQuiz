@@ -1,0 +1,23 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        //int
+        //string
+        //float
+        //boolean
+        //declare each type of variable
+        //give it a value
+        //output that value as part of a sentence
+        int num = 5;
+        String grade = "Good Job!";
+        float output = 4.5f;
+        boolean next_step = true;
+        System.out.println("The highest score for the exam was a " + num + ".");
+        System.out.println("You got a " + output + " out of " + num + ".");
+        System.out.println("You did well on your exam! " + grade);
+        System.out.println("Are you ready to move on to the next level: " + next_step);
+    }
+}
