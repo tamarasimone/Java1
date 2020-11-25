@@ -1,0 +1,25 @@
+package com.company;
+
+import java.util.Scanner;
+import java.util.stream.Stream;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter text here");
+        int Text = input.nextInt();
+        int Text_count;
+        Text_count = (int) Stream.count(Text);
+        int word_count;
+        word_count = Text = ".";
+        index = 0.0588 * L - 0.296 * S - 15.8
+
+        System.out.println(Text + Text_count);
+
+
+
+
+    }
+}
