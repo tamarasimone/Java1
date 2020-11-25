@@ -1,0 +1,18 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        Scanner input = new Scanner(System.in);
+        System.out.println("Insert your card number: ");
+        int Card_num = input.nextInt();
+
+        if Card_num = count(9 int) And (int)
+        System.out.println("Visa");
+
+        else = System.out.println( "error");
+    }
+}
