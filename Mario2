@@ -8,7 +8,61 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number between 1 and 8");
         int Height = input.nextInt();
+     // for 1
+        if Height = 1
+          System.out.println("The Pattern is");
+        for (int i = 0; i < 1; i++) {
+            for (int j = 0; j < 1; j++) {
+                if (j <= i) {
+                    System.out.print("  *");
+                } else {
+                    System.out.print("   ");
+                }
+            }
+            System.out.println();
+        }
+ // for 2
+        if Height = 2
+          System.out.println("The Pattern is");
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
+                if (j <= i) {
+                    System.out.print("  *");
+                } else {
+                    System.out.print("   ");
+                }
+            }
+            System.out.println();
+        }
+         // for 3
+        if Height = 3
+          System.out.println("The Pattern is");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (j <= i) {
+                    System.out.print("  *");
+                } else {
+                    System.out.print("   ");
+                }
+            }
+            System.out.println();
+        }
+         // for 4
+        if Height = 4
+          System.out.println("The Pattern is");
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+                if (j <= i) {
+                    System.out.print("  *");
+                } else {
+                    System.out.print("   ");
+                }
+            }
+            System.out.println();
+        }
 
+        //For 5
+        if Height = 5
         System.out.println("The Pattern is");
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
@@ -20,5 +74,47 @@ public class Main {
             }
             System.out.println();
         }
+         // for 6
+        if Height = 6
+          System.out.println("The Pattern is");
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 6; j++) {
+                if (j <= i) {
+                    System.out.print("  *");
+                } else {
+                    System.out.print("   ");
+                }
+            }
+            System.out.println();
+        }
+         // for 7
+        if Height = 7
+          System.out.println("The Pattern is");
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 7; j++) {
+                if (j <= i) {
+                    System.out.print("  *");
+                } else {
+                    System.out.print("   ");
+                }
+            }
+            System.out.println();
+        }
+         // for 8
+        if Height = 8
+          System.out.println("The Pattern is");
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                if (j <= i) {
+                    System.out.print("  *");
+                } else {
+                    System.out.print("   ");
+                }
+            }
+            System.out.println();
+        }
+
+
+
     }
 }
