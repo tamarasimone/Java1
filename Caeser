@@ -1,0 +1,39 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Submit integer here: ");
+        int Answer = input.nextInt();
+        System.out.println("Rotation: " + Answer);
+        if (Answer >1 && 25 > Answer) {
+            System.out.println("Success");
+            System.out.println("Rotation: " + Answer);
+        } else if (Answer < 1) {
+            System.out.println("Rotation: Too Low");
+            System.out.print("Rotation: ");
+            int New = input.nextInt();
+            System.out.println(New);
+
+        } else if (Answer > 25) {
+            System.out.println("Rotation: Too High");
+            System.out.print("Rotation: ");
+            int New2 = input.nextInt();
+            System.out.println(New2);
+        } else {
+            System.out.print("Success");
+        }
+        int shift = Answer + 1;
+        Scanner text = new Scanner(System.in);
+        System.out.println("Enter Plain Text here:");
+        String plaintext = text.nextLine();
+        System.out.println(shift(plaintext,(Answer)));
+
+
+    }
+}
