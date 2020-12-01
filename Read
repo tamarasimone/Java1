@@ -1,7 +1,6 @@
 package com.company;
 
 import java.util.Scanner;
-import java.util.stream.Stream;
 
 public class Main {
 
@@ -9,17 +8,37 @@ public class Main {
 	// write your code here
         Scanner input = new Scanner(System.in);
         System.out.println("Enter text here");
-        int Text = input.nextInt();
-        int Text_count;
-        Text_count = (int) Stream.count(Text);
-        int word_count;
-        word_count = Text = ".";
-        index = 0.0588 * L - 0.296 * S - 15.8
+        String text = input.nextLine();
+        System.out.println(text);
+        int count = 0;
+        int add = 0;
+        int more = 0;
+        double index;
+        for (int i = 0; i < text.length(); i++) {
+            if (Character.isLetter(text.charAt(i)))
+                count++;
+            if (Character.isWhitespace(text.charAt(i)))
+                add++;
+            if (Character.isUpperCase(text.charAt(i)))
+                more++;
+            System.out.println(count + " letter(s)");
+            System.out.println(add + " word(s)");
+            System.out.println(more + " sentence(s)");
+        }
 
-        System.out.println(Text + Text_count);
-
-
-
-
+        index = 0.0588 * count - 0.296 * more - 15.8;
+        if (index > 16)
+            System.out.println("Grade: 16+");
+        else if (index < 1)
+            System.out.println("Before Grade 1");
+        else
+            System.out.println("Grade" + index);
     }
-}
+
+
+             }
+
+
+
+   // }
+//}
