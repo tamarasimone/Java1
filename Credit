@@ -8,11 +8,28 @@ public class Main {
 	// write your code here
         Scanner input = new Scanner(System.in);
         System.out.println("Insert your card number: ");
-        int Card_num = input.nextInt();
+        char Card_num = (char) input.nextInt();
+        System.out.println("Num: " + Card_num);
 
-        if Card_num = count(9 int) And (int)
-        System.out.println("Visa");
 
-        else = System.out.println( "error");
+        if (Card_num[0] = 4); {
+            System.out.println("VISA");
+        } else if (Card_num[0] = 51) {
+            System.out.println("MASTERCARD");
+        } else if (Card_num[0] = 52) {
+            System.out.println("MASTERCARD");
+        } else if (Card_num[0] = 53) {
+            System.out.println("MASTERCARD");
+        } else if (Card_num[0] = 54) {
+            System.out.println("MASTERCARD");
+        } else if (Card_num[0] = 55) {
+            System.out.println("MASTERCARD");
+        } else if (Card_num[0] =34) {
+            System.out.println("AMERICAN EXPRESS");
+        } else if (Card_num[0] = 37) {
+            System.out.println("AMERICAN EXPRESS");
+        } else { System.out.println("INVALID"); }
+
+
     }
 }
