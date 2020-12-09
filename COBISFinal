@@ -1,0 +1,136 @@
+package com.company;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        String[] product = {"red-hot spicy doritos", "cool ranch doritos", "coke", "diet coke", "pepsi", "five hour energy", "sunflower seeds", "peanuts", "mac book chargers", "dell chargers"};
+        double[] Price = {2.99, 2.99, 0.99, 0.99, 0.99, 3.99, 0.99, 0.99, 120, 50};
+        double total = 0;
+
+//INPUT CUST INFO: NAME and store names in array 'arrname'
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input Customer name:");
+        String name = input.nextLine();
+        String[] arrname = {};
+        //arrname[];
+        System.out.println("Hello " + name);
+        System.out.println("Our options for today are: red-hot spicy doritos, cool ranch doritos, coke, diet coke, pepsi, five hour energy, sunflower seeds, peanuts, mac book chargers, dell chargers.");
+
+        Scanner input2 = new Scanner(System.in);
+        System.out.println("Please pick an item to see the cost");
+        String cost = input2.nextLine();
+
+        if (cost.equals(product[0])) {
+            System.out.print(Arrays.toString(new double[]{Price[0]}));
+        } else if (cost.equals(product[1])) {
+            System.out.print(Arrays.toString(new double[]{Price[1]}));
+        } else if (cost.equals(product[2])) {
+            System.out.print(Arrays.toString(new double[]{Price[2]}));
+        } else if (cost.equals(product[3])) {
+            System.out.print(Arrays.toString(new double[]{Price[3]}));
+        } else if (cost.equals(product[4])) {
+            System.out.print(Arrays.toString(new double[]{Price[4]}));
+        } else if (cost.equals(product[5])) {
+            System.out.print(Arrays.toString(new double[]{Price[5]}));
+        } else if (cost.equals(product[6])) {
+            System.out.print(Arrays.toString(new double[]{Price[6]}));
+        } else if (cost.equals(product[7])) {
+            System.out.print(Arrays.toString(new double[]{Price[7]}));
+        } else if (cost.equals(product[8])) {
+            System.out.print(Arrays.toString(new double[]{Price[8]}));
+        } else {
+            System.out.print(Arrays.toString(new double[]{Price[9]})); }
+    String options = null;
+        int[] customer = {};
+        String[] inventory = {};
+        double hot = 0;
+        double ranch =0;
+        double coke =0;
+        double diet =0;
+        double pepsi =0;
+        double five =0;
+        double seeds =0;
+        double peanuts =0;
+        double mac =0;
+        double dell =0;
+    do {
+        Scanner input3 = new Scanner(System.in);
+        System.out.println("What would you like to buy, " + name);
+        options = input3.nextLine();
+
+
+        if (options.equals(product[0])) {
+             hot = total + Price[0];
+        } else if (options.equals(product[1])) {
+             ranch = total + Price[1];
+            System.out.println(total);
+        } else if (options.equals(product[2])) {
+             coke = total + Price[2];
+            System.out.println(total);
+        } else if (options.equals(product[3])) {
+             diet = total + Price[3];
+            System.out.println(total);
+        } else if (options.equals(product[4])) {
+             pepsi = total + Price[4];
+            System.out.println(total);
+        } else if (options.equals(product[5])) {
+             five = total + Price[5];
+            System.out.println(total);
+        } else if (options.equals(product[6])) {
+             seeds = total + Price[6];
+            System.out.println(total);
+        } else if (options.equals(product[7])) {
+             peanuts = total + Price[7];
+            System.out.println(total);
+        } else if (options.equals(product[8])) {
+             mac = total + Price[8];
+            System.out.println(total);
+        } else   {
+             dell = total + Price[9];
+            System.out.println(total);
+        }
+            //inventory[];
+            Scanner input4 = new Scanner(System.in);
+            System.out.println("Would you like order anything else? Yes or No");
+            options = input4.nextLine();
+            System.out.println(options);
+
+    }while (!options.equals("No")) ;
+
+        while (options.equals("No")) {
+            double final_total = hot + ranch + coke + diet + pepsi + five + seeds + peanuts + mac + dell;
+            System.out.println("Your total is");
+            System.out.println(name + final_total);
+            //customer[];
+        }
+
+
+
+        Scanner input5 = new Scanner(System.in);
+        System.out.println("Is it closing time? Yes or No");
+        String grandclosing = input5.nextLine();
+        System.out.println(grandclosing);
+
+        if (grandclosing == "Yes") {
+            //System.out.println(Arrays.toString(name));
+            System.out.println(Arrays.toString(customer));
+        } else { return;};
+
+        System.out.println("Inventory Sold");
+        System.out.println(inventory.length);
+
+
+        int sum = 0;
+        for( int num : customer) {
+            //sum = sum + customer;
+        }
+        System.out.println("Grand Total");
+        System.out.println(sum);
+
+
+
+    } }
